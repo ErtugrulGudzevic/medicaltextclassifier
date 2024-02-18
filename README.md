@@ -1,21 +1,21 @@
-Bu proje, çeşitli teknikler kullanılarak geliştirilmiş bir makine öğrenimi modelini içermektedir. Tıbbi metinleri sınıflandırmak için tasarlanmıştır. Proje kapsamında gerçekleştirilen temel adımlar şunlardır:
+This project involves the development of a machine learning model using various techniques. It is designed for classifying medical texts. The fundamental steps undertaken in the project are as follows:
 
-Veri Yükleme ve Analiz:
+Data Loading and Analysis:
 
-"train.dat" dosyasından ilgili metin verileri yüklenmiş ve etiketlenmiştir. Veri analizi için grafikler ve istatistiksel bilgiler sağlanmıştır.
+Relevant text data has been loaded and labeled from the "train.dat" file. Graphs and statistical information have been provided for data analysis.
 
-Veri Temizleme ve Ön İşleme:
+Data Cleaning and Preprocessing:
 
-Metin verileri temizlenmiş, küçük harfe çevrilmiş ve gerektiğinde köklenmiştir.
+Text data has been cleaned, converted to lowercase, and stemmed when necessary.
 
-Metin Vektörleme:
+Text Vectorization:
 
-Metin verileri, Bag-of-Words (BOW), TF-IDF, Word2Vec, GloVe ve FastText gibi farklı vektörleme yöntemleri kullanılarak temsil edilmiştir.
+Text data has been represented using different vectorization methods such as Bag-of-Words (BOW), TF-IDF, Word2Vec, GloVe, and FastText.
 
-Modelleme ve Performans Değerlendirmesi:
+Modeling and Performance Evaluation:
 
-Farklı sınıflandırıcılar (Decision Tree, Random Forest ve Support Vector Classifier - SVC) kullanılarak modeller eğitilmiştir. Modellerin performans değerlendirmesi yapılmış ve başarıları karşılaştırılarak raporlanmıştır.
+Models have been trained using different classifiers (Decision Tree, Random Forest, and Support Vector Classifier - SVC). The performance of the models has been evaluated, and their successes have been compared and reported.
 
-*** "train.dat" dosyasının projenin ana dizininde bulunması gerekmektedir.
+*** The "train.dat" file must be present in the main directory of the project.
 
-Kullanılan Teknolojiler ve Kütüphaneler: Python, Jupyter Notebook, Scikit-learn, Gensim, Matplotlib, Seaborn, Plotly, nltk
+Technologies and Libraries Used: Python, Jupyter Notebook, Scikit-learn, Gensim, Matplotlib, Seaborn, Plotly, nltk
